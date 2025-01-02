@@ -9,10 +9,9 @@ FLAGS				= -Wall -Werror -Wextra
 
 REMOVE				= rm -f
 
-ECHO				= /usr/bin/echo
-
 #visual
-MAKEFLAGS += --no-print-directory
+#MAKEFLAGS += --no-print-directory
+
 RM_LINE = @tput cuu1 && tput el
 
 DEF_COLOR			=	\033[0;39m
@@ -79,14 +78,12 @@ all: ${NAME}
 
 ${NAME}: ${OFILES}
 	@ar rcs $@ $^
-	${RM_LINE}
-	${RM_LINE}
 	@echo "${GREEN}Done creating ${NAME}${DEF_COLOR}"
 
 %.o : %.c
 	@echo "Compiling $< into $@..."
-	@${CC} ${CFLAGS} -o $@ -c $<
 	${RM_LINE}
+	@${CC} ${CFLAGS} -o $@ -c $<
 
 clean:
 	@echo "Cleaning libft objects"
