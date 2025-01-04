@@ -1,21 +1,22 @@
-NAME = updated_libft.a
+NAME = libft.a
 
-LIBFT_PATH			=	src/libft/
-FT_PRINTF_PATH		=	src/ft_printf/
-GET_NEXT_LINE_PATH	=	src/get_next_line/
+LIBFT_PATH		= src/libft/
+FT_PRINTF_PATH		= src/ft_printf/
+GET_NEXT_LINE_PATH	= src/get_next_line/
 
-CC					= gcc
-FLAGS				= -Wall -Werror -Wextra
+CC			= gcc
+FLAGS			= -Wall -Werror -Wextra
 
-REMOVE				= rm -f
+REMOVE			= rm -f
 
 #visual
-MAKEFLAGS += --no-print-directory
+MAKEFLAGS		+= --no-print-directory
 
-RM_LINE = @tput cuu1 && tput el
+RM_LINE			= @tput cuu1 && tput el
+SLEEP 			= sleep 0.05
 
-DEF_COLOR			=	\033[0;39m
-GREEN				=	\033[0;92m
+DEF_COLOR		= \033[0;39m
+GREEN			= \033[0;92m
 
 FILES =	\
 		${FT_PRINTF_PATH}ft_printf.c \
@@ -83,6 +84,7 @@ ${NAME}: ${OFILES}
 %.o : %.c
 	@echo "Compiling $< into $@..."
 	@${CC} ${CFLAGS} -o $@ -c $<
+	@${SLEEP}
 	${RM_LINE}
 
 clean:
