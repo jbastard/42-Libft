@@ -10,7 +10,7 @@ FLAGS				= -Wall -Werror -Wextra
 REMOVE				= rm -f
 
 #visual
-#MAKEFLAGS += --no-print-directory
+MAKEFLAGS += --no-print-directory
 
 RM_LINE = @tput cuu1 && tput el
 
@@ -82,8 +82,8 @@ ${NAME}: ${OFILES}
 
 %.o : %.c
 	@echo "Compiling $< into $@..."
-	${RM_LINE}
 	@${CC} ${CFLAGS} -o $@ -c $<
+	${RM_LINE}
 
 clean:
 	@echo "Cleaning libft objects"
