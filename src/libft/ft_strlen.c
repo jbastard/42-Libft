@@ -20,9 +20,3 @@ size_t	ft_strlen(const char	*s)
 		i++;
 	return (i);
 }
-
-// int main(void)
-// {
-// 	char str[] = "Je suis une string";
-// 	printf("%d", (int)ft_strlen(str));
-// }

@@ -29,9 +29,3 @@ void	ft_putnbr_fd(int n, int fd)
 	if (temp == -2147483648)
 		ft_putchar_fd('8', fd);
 }
-
-// int main(void)
-// {
-// 	int	i = 12345;
-// 	ft_putnbr_fd(i, 1);
-// }

@@ -22,10 +22,3 @@ void	ft_putstr_fd(char *s, int fd)
 		i++;
 	}
 }
-
-// int main()
-// {
-// 	size_t	sortie = 2;
-// 	char	*a = "abcdefg";
-// 	ft_putstr_fd(a, sortie);
-// }

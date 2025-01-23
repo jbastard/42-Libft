@@ -16,25 +16,3 @@ void	ft_bzero(void *s, size_t n)
 	while (n--)
 		((unsigned char *)s)[n] = 0;
 }
-
-// int main(void)
-// {
-// 	size_t	n = 16;
-// 	char	str[n];
-// 	ft_bzero(str, n);
-// 	int i = 0;
-// 	while (i < n)
-// 	{
-// 		printf("%d", (char)str[i]);
-// 		i++;
-// 	}
-// 		printf("\n");
-// 	char	stri[n];
-// 	bzero(stri, n);
-// 	i = 0;
-// 	while (i < n)
-// 	{
-// 		printf("%d", (char)str[i]);
-// 		i++;
-// 	}
-// }

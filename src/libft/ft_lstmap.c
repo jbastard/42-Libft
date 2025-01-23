@@ -31,31 +31,3 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	}
 	return (ret);
 }
-
-// void	*f(void *c)
-// {
-// 	char *ch = (char *)c;
-// 	if (*ch >= 97 && *ch <= 122)
-// 		*ch -= 32;
-// 	return (ch);
-// }
-
-// void	del(void *content)
-// {
-// 	free(content);
-// }
-
-// int main(void)
-// {
-// 	t_list	*lst = NULL;
-// 	ft_lstadd_back(&lst, ft_lstnew(strdup("c")));
-// 	ft_lstadd_back(&lst, ft_lstnew(strdup("b")));
-// 	ft_lstadd_back(&lst, ft_lstnew(strdup("a")));
-
-// 	t_list *temp = ft_lstmap(lst, f, del);
-// 	while (temp)
-// 	{
-// 		printf("%s\n", (char*)temp->content);
-// 		temp = temp->next;
-// 	}
-// }

@@ -37,9 +37,3 @@ char	*ft_strdup(const char *s)
 	ft_strcpy(s, str_dest);
 	return (str_dest);
 }
-
-// int	main(void)
-// {
-// 	const char *str = "Hello World !";
-// 	printf("%s",ft_strdup(str));
-// }

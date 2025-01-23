@@ -32,12 +32,3 @@ void	*ft_calloc(size_t nmenb, size_t size)
 	}
 	return (dest);
 }
-
-// int main(void)
-// {
-// 	size_t nmenb = 100000;
-// 	size_t size = 100000;
-// 	if (ft_calloc(nmenb, size))
-// 		return printf("OK");
-// 	return printf("KO");
-// }

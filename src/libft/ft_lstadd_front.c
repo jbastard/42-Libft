@@ -16,16 +16,3 @@ void	ft_lstadd_front(t_list **lst, t_list *new)
 	new->next = *lst;
 	*lst = new;
 }
-
-// int main()
-// {
-// 	t_list	*new = malloc(sizeof(t_list));
-// 	if (!new)
-// 		return(0);
-// 	new->content = "content updated";
-
-// 	t_list	*lst;
-// 	ft_lstadd_front(&lst, new);
-// 	printf("%s\n", lst->content);
-// 	free(new);
-// }

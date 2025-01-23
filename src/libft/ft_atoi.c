@@ -37,10 +37,3 @@ int	ft_atoi(const char	*nptr)
 	}
 	return (n * sign);
 }
-
-// int	main(void)
-// {
-// 	const char *num = "-46434616";
-// 	printf("%d\n", ft_atoi(num));
-// 	printf("%d", atoi(num));
-// }

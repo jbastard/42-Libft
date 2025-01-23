@@ -32,13 +32,3 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (0);
 }
-
-// int main(void)
-// {
-// 	char *big = "Hello World !";
-// 	char *little = " Wo";
-// 	size_t len = 7;
-// 	printf("%s\n", ft_strnstr(big, little, len));
-// 	char *big1 = "Hello World !";
-// 	printf("%s", strstr(big1, little));
-// }

@@ -19,11 +19,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 		((unsigned char *)dest)[n] = ((unsigned char *)src)[n];
 	return (dest);
 }
-
-// int	main(void)
-// {
-// 	size_t n = 5;
-// 	unsigned char dest[n];
-// 	printf("%s\n", ((char *) ft_memcpy(dest, "memcheck", n)));
-// 	printf("%s", ((char *) memcpy(dest, "memcheck", n)));
-// }

@@ -21,25 +21,3 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 		lst = lst->next;
 	}
 }
-
-// void	f(void *c)
-// {
-// 	char *ch = (char *)c;
-// 	if (*ch >= 97 && *ch <= 122)
-// 		*ch -= 32;
-// }
-
-// int main(void)
-// {
-// 	t_list	*lst = NULL;
-// 	ft_lstadd_back(&lst, ft_lstnew(strdup("c")));
-// 	ft_lstadd_back(&lst, ft_lstnew(strdup("b")));
-// 	ft_lstadd_back(&lst, ft_lstnew(strdup("a")));
-// 	ft_lstiter(lst, f);
-// 	t_list *temp = lst;
-// 	while (temp)
-// 	{
-// 		printf("%s\n", (char*)temp->content);
-// 		temp = temp->next;
-// 	}
-// }

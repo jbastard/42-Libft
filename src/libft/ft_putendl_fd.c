@@ -23,10 +23,3 @@ void	ft_putendl_fd(char *s, int fd)
 	}
 	write(fd, "\n", 1);
 }
-
-// int main()
-// {
-// 	size_t	sortie = 1;
-// 	char	*a = "abcdefg";
-// 	ft_putendl_fd(a, sortie);
-// }

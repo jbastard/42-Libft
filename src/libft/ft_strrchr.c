@@ -26,11 +26,3 @@ char	*ft_strrchr(const char	*s, int c)
 	}
 	return (0);
 }
-
-// int	main(void)
-// {
-// 	char *str = "bonjour";
-// 	int search = 'b';
-
-// 	printf("%s\n", ft_strrchr(str, search));
-// }

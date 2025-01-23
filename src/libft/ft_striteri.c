@@ -22,15 +22,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		i++;
 	}
 }
-
-// void	ft_a(unsigned int d, char *c)
-// {
-// 	*c = 'a';
-// }
-
-// int main(void)
-// {
-// 	char str[] = "JESUI45SENMAJ8";
-// 	ft_striteri(str, ft_a);
-// 	printf("%s", str);
-// }

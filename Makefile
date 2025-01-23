@@ -13,7 +13,7 @@ REMOVE			= rm -f
 MAKEFLAGS		+= --no-print-directory
 
 RM_LINE			= @tput cuu1 && tput el
-SLEEP 			= sleep 0.05
+SLEEP 			= sleep 0.02
 
 DEF_COLOR		= \033[0;39m
 GREEN			= \033[0;92m
@@ -84,8 +84,7 @@ ${NAME}: ${OFILES}
 %.o : %.c
 	@echo "Compiling $< into $@..."
 	@${CC} ${CFLAGS} -o $@ -c $<
-	@${SLEEP}
-	${RM_LINE}
+	@${RM_LINE}
 
 clean:
 	@echo "Cleaning libft objects"

@@ -24,19 +24,3 @@ int	ft_strncmp(const char	*s1, const char	*s2, size_t	n)
 	}
 	return (0);
 }
-
-// int main(void)
-// {
-// // 	char *s1 = "Comparez2";
-// // 	char *s2 = "Comparez1";
-// // 	size_t n = 9;
-
-// 	unsigned char s1[10] = "abcdef";
-// 	unsigned char s2[10] = "abc\xfdxx";
-
-// 	s1[3] = 0;
-// 	s2[3] = 0;
-
-// 	printf("%d\n", ft_strncmp((const char *)s1, (const char *)s2, n));
-// 	printf("%d\n", strncmp((const char *)s1, (const char *)s2, n));
-// }

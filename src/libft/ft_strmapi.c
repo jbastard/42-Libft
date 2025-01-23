@@ -28,15 +28,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	ret[i] = 0;
 	return (ret);
 }
-
-// char	ft_a(unsigned int d, char c)
-// {
-// 	c = 'a';
-// 	return (c);
-// }
-
-// int main(void)
-// {
-// 	const char *str = "JESUIS";
-// 	printf("%s", ft_strmapi(str, ft_a));
-// }

@@ -39,11 +39,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	substr[index] = '\0';
 	return (substr);
 }
-
-// int main(void)
-// {
-// 	char const *s = "1234Hello World!5678";
-// 	unsigned int start = 4;
-// 	size_t len = 12;
-// 	printf("%s", ft_substr(s, start, len));
-// }

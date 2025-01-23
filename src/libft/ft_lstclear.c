@@ -24,15 +24,3 @@ void	ft_lstclear(t_list **lst, void (*del)(void*))
 		*lst = tmp;
 	}
 }
-
-// int main(void)
-// {
-// 	t_list	*lst = NULL;
-// 	ft_lstadd_back(&lst, ft_lstnew("Node 1"));
-// 	ft_lstadd_back(&lst, ft_lstnew("Node 2"));
-// 	ft_lstadd_back(&lst, ft_lstnew("Node 3"));
-
-// 	ft_lstclear(&lst, del);
-// 	if(!lst)
-// 		printf("Liste supprimee");
-// }

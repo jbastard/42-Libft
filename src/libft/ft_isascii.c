@@ -17,9 +17,3 @@ int	ft_isascii(int c)
 		return (1);
 	return (0);
 }
-
-// int main(void)
-// {
-// 	int	a = '8';
-// 	printf("%x", ft_isascii(a));
-// }

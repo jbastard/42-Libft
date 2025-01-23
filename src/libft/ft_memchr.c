@@ -24,12 +24,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (0);
 }
-
-// int	main(void)
-// {
-// 	char *s = "Coucou comment tu vas?";
-// 	int	c = 'm';
-// 	size_t n = 12;
-// 	printf("%s\n", (char *) ft_memchr(s, c, n));
-// 	printf("%s\n", (char *) memchr(s, c, n));
-// }

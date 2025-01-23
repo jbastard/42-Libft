@@ -70,9 +70,3 @@ char	*ft_itoa(int n)
 		filln(n, len, new);
 	return (new);
 }
-
-/* int	main()
-{
-	int	n = -2147483648;
-	printf("%s", ft_itoa(n));
-} */

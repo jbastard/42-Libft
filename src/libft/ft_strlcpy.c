@@ -26,12 +26,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	dst[i] = '\0';
 	return (ft_strlen(src));
 }
-
-// int main(void)
-// {
-// 	// char	src[] = "Hello, World!";
-// 	char	dst[14];
-// 	int	result = (ft_strlcpy(dst, "lorem ipsum dolor sit amet", 0));
-// 	printf("Chaîne copiée : %s\n", dst);
-// 	printf("Longueur totale de src : %d\n", result);
-// }

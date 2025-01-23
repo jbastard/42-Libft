@@ -23,13 +23,3 @@ int	ft_lstsize(t_list *lst)
 	}
 	return (i);
 }
-
-// int main(void)
-// {
-// 	t_list	*lst = NULL;
-// 	ft_lstadd_back(&lst, ft_lstnew("Node 1"));
-// 	ft_lstadd_back(&lst, ft_lstnew("Node 2"));
-// 	ft_lstadd_back(&lst, ft_lstnew("Node 3"));
-
-// 	printf("%d elements dans la liste", ft_lstsize(lst));
-// }

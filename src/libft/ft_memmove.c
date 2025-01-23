@@ -33,10 +33,3 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-// int	main(void)
-// {
-// 	size_t n = 9;
-// 	unsigned char dest[n];
-// 	printf("%s\n", ((char *) ft_memmove(dest, "memcheck", n)));
-// 	printf("%s", ((char *) memmove(dest, "memcheck", n)));
-// }

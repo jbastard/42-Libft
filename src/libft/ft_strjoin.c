@@ -39,10 +39,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	fstr[index] = '\0';
 	return (fstr);
 }
-
-// int	main(void)
-// {
-// 	const char *s1 = "Hello ";
-// 	const char *s2 = "World!";
-// 	printf("%s", ft_strjoin(s1, s2));
-// }

@@ -88,17 +88,3 @@ char	**ft_split(const char *s, char c)
 	}
 	return (strs);
 }
-
-// int main(void)
-// {
-// 	char *string = "hello!";
-// 	char c = '\0';
-// 	char **str = ft_split(string, c);
-
-// 	size_t i = 0;
-// 	while (str[i])
-// 	{
-// 		printf("%s\n", str[i]);
-// 		i++;
-// 	}
-// }

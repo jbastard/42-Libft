@@ -23,9 +23,3 @@ t_list	*ft_lstnew(void *content)
 	}
 	return (list);
 }
-
-// int main()
-// {
-// 	char *content = "content updated";
-// 	printf("%s", ft_lstnew(content)->content);
-// }

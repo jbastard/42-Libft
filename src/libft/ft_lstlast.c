@@ -19,14 +19,3 @@ t_list	*ft_lstlast(t_list *lst)
 		lst = lst->next;
 	return (lst);
 }
-
-// int main(void)
-// {
-// 	t_list	*lst = NULL;
-// 	ft_lstadd_back(&lst, ft_lstnew("Node 1"));
-// 	ft_lstadd_back(&lst, ft_lstnew("Node 2"));
-// 	ft_lstadd_back(&lst, ft_lstnew("Node 3"));
-
-// 	t_list *last = ft_lstlast(lst);
-// 	printf("dernier element est : %s", (char *)last->content);
-// }

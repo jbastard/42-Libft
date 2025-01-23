@@ -71,11 +71,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	trim_str[i] = '\0';
 	return (trim_str);
 }
-
-// int	main(void)
-// {
-//  	char *s1 = "qqqqq";
-//  	char *ret = ft_strtrim(s1, "q");
-
-//  	printf("%s", ret);
-// }

@@ -22,11 +22,3 @@ char	*ft_strchr(const char	*s, int c)
 		return ((char *)&s[i]);
 	return (NULL);
 }
-
-// int	main(void)
-// {
-// 	char *s = "bonjour";
-// 	// int search = 'b';
-
-// 	printf("%s\n", ft_strchr(s, search));
-// }

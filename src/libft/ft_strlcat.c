@@ -33,12 +33,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	dst[i] = '\0';
 	return (buff);
 }
-
-// int main(void)
-// {
-// 	char	dst[10] = "a";
-// 	// size_t	size = 11;
-// 	int	result = ft_strlcat(dst, "lorem ipsum dolor sit amet", 1);
-// 	printf("Longueur totale : %d\n", result);
-// 	printf("Chaîne copiée : %s\n", dst);
-// }

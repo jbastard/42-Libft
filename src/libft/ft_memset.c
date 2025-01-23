@@ -17,12 +17,3 @@ void	*ft_memset(void *s, int c, size_t n)
 		((unsigned char *)s)[n] = (unsigned char)c;
 	return (s);
 }
-
-// int	main(void)
-// {
-// 	unsigned char	s[] = "123456789";
-// 	int		c = 1;
-// 	size_t	n = 8;
-// 	printf("%s\n", (char *)ft_memset(s, c, n));
-// 	printf("%s", (char *)memset(s, c, n));
-// }
