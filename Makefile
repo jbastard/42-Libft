@@ -90,8 +90,9 @@ clean:
 	@echo "Cleaning libft objects"
 	@${REMOVE} ${OFILES}
 
-fclean: clean
-	@echo "Removing ${NAME}"
+fclean: 
+	@echo "Removing ${NAME} and dependencies"
+	@${REMOVE} ${OFILES}
 	@${REMOVE} ${NAME}
 
 re: fclean all clean
