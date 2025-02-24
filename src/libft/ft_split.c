@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 #include "../../include/libft.h"
 
-static size_t	word_count(const char *s, char c)
+size_t	word_count(const char *s, char c)
 {
 	size_t	words;
 	size_t	i;
